@@ -11,10 +11,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/mickamy/http-tap/broker"
-	"github.com/mickamy/http-tap/proxy"
-	"github.com/mickamy/http-tap/server"
-	"github.com/mickamy/http-tap/web"
+	"github.com/proto-tap/http-tap/broker"
+	"github.com/proto-tap/http-tap/proxy"
+	"github.com/proto-tap/http-tap/server"
+	"github.com/proto-tap/http-tap/web"
 )
 
 var version = "dev"

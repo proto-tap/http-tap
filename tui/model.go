@@ -17,8 +17,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/mickamy/http-tap/clipboard"
-	tapv1 "github.com/mickamy/http-tap/gen/tap/v1"
+	"github.com/proto-tap/http-tap/clipboard"
+	tapv1 "github.com/proto-tap/http-tap/gen/tap/v1"
 )
 
 type viewMode int

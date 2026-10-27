@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mickamy/http-tap/broker"
-	"github.com/mickamy/http-tap/proxy"
-	"github.com/mickamy/http-tap/web"
+	"github.com/proto-tap/http-tap/broker"
+	"github.com/proto-tap/http-tap/proxy"
+	"github.com/proto-tap/http-tap/web"
 )
 
 type fakeProxy struct {

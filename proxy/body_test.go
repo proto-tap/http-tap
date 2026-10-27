@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mickamy/http-tap/proxy"
+	"github.com/proto-tap/http-tap/proxy"
 )
 
 func TestCaptureReader_CapturesUpToMax(t *testing.T) {

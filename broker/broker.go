@@ -3,7 +3,7 @@ package broker
 import (
 	"sync"
 
-	"github.com/mickamy/http-tap/proxy"
+	"github.com/proto-tap/http-tap/proxy"
 )
 
 // Broker implements a non-blocking fan-out pub/sub for proxy events.
