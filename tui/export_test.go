@@ -10,8 +10,8 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	tapv1 "github.com/mickamy/http-tap/gen/tap/v1"
-	"github.com/mickamy/http-tap/tui"
+	tapv1 "github.com/proto-tap/http-tap/gen/tap/v1"
+	"github.com/proto-tap/http-tap/tui"
 )
 
 func makeEvent(method, path string, status int32, dur time.Duration, errMsg string) *tapv1.HTTPEvent {

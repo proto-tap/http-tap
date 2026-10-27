@@ -11,10 +11,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/mickamy/http-tap/broker"
-	tapv1 "github.com/mickamy/http-tap/gen/tap/v1"
-	"github.com/mickamy/http-tap/proxy"
-	"github.com/mickamy/http-tap/server"
+	"github.com/proto-tap/http-tap/broker"
+	tapv1 "github.com/proto-tap/http-tap/gen/tap/v1"
+	"github.com/proto-tap/http-tap/proxy"
+	"github.com/proto-tap/http-tap/server"
 )
 
 type fakeProxy struct {

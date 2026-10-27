@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mickamy/http-tap/broker"
-	"github.com/mickamy/http-tap/proxy"
+	"github.com/proto-tap/http-tap/broker"
+	"github.com/proto-tap/http-tap/proxy"
 )
 
 func TestBroker_PublishSubscribe(t *testing.T) {

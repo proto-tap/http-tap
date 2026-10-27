@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mickamy/http-tap/proxy"
+	"github.com/proto-tap/http-tap/proxy"
 )
 
 func TestServeHTTP_ForwardsRequest(t *testing.T) {

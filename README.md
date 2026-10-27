@@ -9,20 +9,28 @@ http-tap sits between your application and your HTTP server, capturing every req
 ### Homebrew
 
 ```bash
-brew install mickamy/tap/http-tap
+brew install --cask proto-tap/tap/http-tap
 ```
+
+> [!NOTE]
+> http-tap has moved from the `mickamy/tap` formula to the `proto-tap/tap` cask. If you installed it from `mickamy/tap`, switch with:
+>
+> ```bash
+> brew uninstall http-tap
+> brew install --cask proto-tap/tap/http-tap
+> ```
 
 ### Go
 
 ```bash
-go install github.com/mickamy/http-tap@latest
-go install github.com/mickamy/http-tap/cmd/http-tapd@latest
+go install github.com/proto-tap/http-tap@latest
+go install github.com/proto-tap/http-tap/cmd/http-tapd@latest
 ```
 
 ### Build from source
 
 ```bash
-git clone https://github.com/mickamy/http-tap.git
+git clone https://github.com/proto-tap/http-tap.git
 cd http-tap
 make install
 ```

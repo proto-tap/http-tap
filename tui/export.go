@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	tapv1 "github.com/mickamy/http-tap/gen/tap/v1"
+	tapv1 "github.com/proto-tap/http-tap/gen/tap/v1"
 )
 
 // ExportFormat specifies the output format for exports.

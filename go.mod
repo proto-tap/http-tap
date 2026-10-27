@@ -1,4 +1,4 @@
-module github.com/mickamy/http-tap
+module github.com/proto-tap/http-tap
 
 go 1.25.0
 
